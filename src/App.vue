@@ -7,7 +7,9 @@ export default {
   name: "App",
   components: {},
   data() {
-    return {};
+    return {
+      api_key: "",
+    };
   },
 };
 </script>
