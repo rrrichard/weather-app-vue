@@ -1,5 +1,11 @@
 <template>
-  <div id="app"></div>
+  <div id="app">
+    <main>
+      <div class="search-box">
+        <input type="text" class="search-bar" placeholder="Search..." />
+      </div>
+    </main>
+  </div>
 </template>
 
 <script>
@@ -15,4 +21,24 @@ export default {
 </script>
 
 <style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-seriff;
+}
+
+#app {
+  background-image: url("./assets/cold.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+
+main {
+  min-height: 100vh;
+  padding: 25px;
+}
 </style>
